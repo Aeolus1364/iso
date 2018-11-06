@@ -10,4 +10,4 @@ def load(image):
 
 
 tile = load("tilec.png")
-cube = load("cube.png")
+cube = load("cube2.png")

@@ -21,9 +21,9 @@ class Main:
         self.group = tile.Renderer()
         self.group.add(self.cube, self.cube2)
 
-        for i in range(cfg.grid[0]):
-            for j in range(cfg.grid[1]):
-                self.group.add(tile.Cube((i, j)))
+        # for i in range(cfg.grid[0]):
+        #     for j in range(cfg.grid[1]):
+        #         self.group.add(tile.Cube((i, j)))
 
     def loop(self):
         while self.running:
